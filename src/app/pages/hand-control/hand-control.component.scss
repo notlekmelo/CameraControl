@@ -1,0 +1,30 @@
+#cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+body {
+  cursor: none;
+  user-select: none;
+}
+
+video {
+  display: none;
+}
+  
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+
+.button {
+  padding: 20px;
+  font-size: 24px;
+  margin: 10px;
+}
